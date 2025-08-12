@@ -1,6 +1,5 @@
 import { type ReactNode } from 'react'
 import Header from './Header'
-import Main from '../main/Main'
 import Footer from './Footer'
 
 interface LayoutProps {
@@ -17,16 +16,12 @@ export default function Layout({ children }: LayoutProps) {
           <Header />
         </header>
 
-        {/* Main content area */}
         <main className="relative">
-          <Main>
-            {children}
-          </Main>
+          {children}
         </main>
 
-        {/* Footer will go here */}
         <footer className="relative z-10">
-          <Footer />
+            <Footer />
         </footer>
       </div>
 
