@@ -1,11 +1,10 @@
 import './styles/App.css'
 import { Layout } from './components/layout'
-import Hero from './components/hero/hero.tsx'
 
 function App() {
   return (
     <Layout>
-      <Hero />
+      <h1>Hello</h1>
     </Layout>
   )
 }
