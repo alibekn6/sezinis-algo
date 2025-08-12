@@ -27,7 +27,7 @@ export function CardDemo() {
       <CardHeader>
         <CardTitle>Enter your leetcode account</CardTitle>
         <CardDescription>
-          Enter your leetcode below to start tracking with your friends
+          Enter your leetcode account below to start tracking with your friends
         </CardDescription>
       </CardHeader>
       
