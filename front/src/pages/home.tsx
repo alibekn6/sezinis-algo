@@ -7,30 +7,26 @@ export function HomePage() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     console.log('LeetCode username:', leetcodeUsername)
-    // TODO: Fetch LeetCode profile data
   }
 
   return (
-    <div className="relative flex flex-col items-center justify-center min-h-[60vh] space-y-8">
-      {/* Background logo */}
+    <div className="relative flex flex-col items-center justify-center min-h-[90vh] space-y-8">
+
       <img
         src="/leetcode-logo.png"
         alt="LeetCode Logo"
         aria-hidden
-        className="pointer-events-none select-none absolute inset-1/2 -translate-x-1/2 -translate-y-1/2 w-[1200px] max-w-none opacity-30 blur-2xl drop-shadow-xl"
+        className="pointer-events-none select-none absolute inset-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] max-w-none opacity-70 blur-3xl drop-shadow-xl"
       />
 
-      {/* Hero Section */}
+
       <div className="text-center space-y-4">
         <h1 className="text-4xl font-bold text-neutral-900 dark:text-neutral-100">
           LeetCode tracker
         </h1>
-        <p className="text-lg text-neutral-600 dark:text-neutral-400 max-w-2xl">
-          Enter your LeetCode username to start tracking your progress and competing with friends.
-        </p>
       </div>
 
-      {/* LeetCode Username Input */}
+
       <div className="w-full max-w-md">
         <form onSubmit={handleSubmit} className="space-y-4">
           <Input
@@ -50,7 +46,6 @@ export function HomePage() {
         </form>
       </div>
 
-      {/* Quick Stats */}
       <div className="grid grid-cols-3 gap-6 w-full max-w-md">
         <div className="text-center p-4 bg-neutral-100 dark:bg-neutral-800 rounded-lg">
           <div className="text-2xl font-bold text-green-600 dark:text-green-400">0</div>
