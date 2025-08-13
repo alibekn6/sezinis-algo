@@ -1,12 +1,13 @@
 import "./styles/App.css";
 import { Layout } from "./components/layout";
-
-
+import { HomePage } from "./pages/home";
 
 function App() {
-  return <Layout>
-    <h1>welcome to the website</h1>
-  </Layout>
+  return (
+    <Layout>
+      <HomePage />
+    </Layout>
+  )
 }
 
 export default App;

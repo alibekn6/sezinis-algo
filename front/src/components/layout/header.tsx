@@ -7,7 +7,7 @@ interface HeaderProps {
 
 export default function Header({ leftSlot, rightSlot }: HeaderProps) {
   return (
-    <div className="sticky top-0 z-50 w-full bg-transparent border-b border-neutral-200 dark:border-neutral-800">
+    <div className="sticky top-0 z-50 w-full bg-transparent">
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <div className="flex items-center gap-6">
           <a href="#" className="inline-flex items-center gap-3">
