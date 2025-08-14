@@ -15,15 +15,6 @@ export function HomePage() {
 
   return (
     <div className="relative flex flex-col items-center justify-center min-h-[90vh] space-y-8">
-
-      <img
-        src="/leetcode-logo.png"
-        alt="LeetCode Logo"
-        aria-hidden
-        className="pointer-events-none select-none absolute inset-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] max-w-none opacity-70 blur-3xl drop-shadow-xl"
-      />
-
-
       <div className="text-center space-y-4">
         <h1 className="text-4xl font-bold text-neutral-900 dark:text-neutral-100">
           LeetCode tracker
